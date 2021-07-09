@@ -8,12 +8,13 @@ namespace FirstConsoleApp
         public static int whichPart;
 
         static void Main(string[] args)
-        {
+        {  
+
             whichPart = 2;
-            var message = string.Format("Welcome {0} Part {1}", title, whichPart);
+            
+            String message = $"Welcome {title} Part {whichPart}";
             Console.WriteLine(message);
-            Console.WriteLine("Press the enter key to exit.");
-            Console.WriteLine();
+            Console.WriteLine("Press the enter key to exit.\r\n");
         }
  
     }
